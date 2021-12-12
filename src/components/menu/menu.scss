@@ -1,0 +1,18 @@
+.dropdown-menu {
+  box-shadow: 0 30px 60px rgb(0, 0, 0, 0.2);
+  width: 100%;
+  background-color: white;
+  padding: 0.3rem 0;
+  &__option {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding: 0.3rem 0;
+  }
+  &__value {
+    padding-left: 0.1rem;
+    &--single {
+      padding-left: 0.5rem;
+    }
+  }
+}

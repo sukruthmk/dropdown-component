@@ -1,0 +1,21 @@
+.dropdown-multi-value {
+  background-color: #e6e6e6;
+  border-radius: 2px;
+  display: flex;
+  margin: 2px;
+  min-width: 0px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.dropdown-single-value {
+  color: rgb(51, 51, 51);
+  grid-area: 1 / 1 / 2 / 3;
+  margin-left: 2 px;
+  margin-right: 2 px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
