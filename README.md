@@ -34,3 +34,6 @@ npm run start
     renderOption={(option) => option.value} 
 />
 ```
+
+## Use custom render function
+`renderOption` prop provides developers a way to do custom formatting like currency convertion
